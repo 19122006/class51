@@ -1,0 +1,43 @@
+h1 {
+    color: white;
+}
+
+/* * {
+    border: solid;
+} */
+
+.header{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+    font-size: medium;
+    border-style: dashed;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+    font-size: medium;
+    border-style: double;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-size: medium;
+    border-style: groove;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    font-size: medium;
+    border-style: inherit;
+}
+
+p,h2{
+    text-align: center;
+
+}
